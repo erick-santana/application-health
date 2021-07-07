@@ -10,9 +10,9 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class MailService {
-    static final String FROM = "noreply@mitraecp.com";
-    static final String TO = "erick.santana@mitraecp.com";
-    static final String SUBJECT = "Alerta de alteração no estado de uma base";
+    static final String FROM = "name@mail.com";
+    static final String TO = "name@mail.com";
+    static final String SUBJECT = "Alerta de alteração no estado da aplicação";
     static final String TEXTBODYIFDOWN = " caiu!";
     static final String TEXTBODYIFUP = " está ativa!";
 
@@ -20,10 +20,10 @@ public class MailService {
         String TEXTBODY = "";
 
         if (mailType.equals(MailType.UP)) {
-            TEXTBODY = "A base " + base.getBucketName() + TEXTBODYIFUP;
+            TEXTBODY = "A aplicação " + base.getBucketName() + TEXTBODYIFUP;
         }
         if (mailType.equals(MailType.DOWN)) {
-            TEXTBODY = "A base " + base.getBucketName() + TEXTBODYIFDOWN;
+            TEXTBODY = "A aplicação " + base.getBucketName() + TEXTBODYIFDOWN;
         }
 
         try {

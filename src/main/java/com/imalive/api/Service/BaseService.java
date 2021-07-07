@@ -14,7 +14,7 @@ import static com.imalive.api.Service.MailService.sendMail;
 
 @Service
 @RequiredArgsConstructor
-public class BaseService { // RUN TESTS BEFORE EDITING
+public class BaseService {
 
     private final BaseRepository baseRepository;
 
