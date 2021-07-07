@@ -1,0 +1,12 @@
+/home/mitra/IdeaProjects/ImAlive/src/main/java/com/imalive/api/Controller/BaseContoller.java
+/home/mitra/IdeaProjects/ImAlive/src/main/java/com/imalive/api/Controller/StatusController.java
+/home/mitra/IdeaProjects/ImAlive/src/main/java/com/imalive/api/Service/BaseService.java
+/home/mitra/IdeaProjects/ImAlive/src/main/java/com/imalive/api/Repository/StatusRepository.java
+/home/mitra/IdeaProjects/ImAlive/src/main/java/com/imalive/api/DataTypes/MailType.java
+/home/mitra/IdeaProjects/ImAlive/src/main/java/com/imalive/api/Service/MailService.java
+/home/mitra/IdeaProjects/ImAlive/src/main/java/com/imalive/api/Util/BaseCreator.java
+/home/mitra/IdeaProjects/ImAlive/src/main/java/com/imalive/api/DataTypes/StatusType.java
+/home/mitra/IdeaProjects/ImAlive/src/main/java/com/imalive/api/Model/Base.java
+/home/mitra/IdeaProjects/ImAlive/src/main/java/com/imalive/api/Repository/BaseRepository.java
+/home/mitra/IdeaProjects/ImAlive/src/main/java/com/imalive/api/Service/StatusService.java
+/home/mitra/IdeaProjects/ImAlive/src/main/java/com/imalive/api/ImAliveApplication.java
